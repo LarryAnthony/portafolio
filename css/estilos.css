@@ -117,7 +117,7 @@ body {
   height: calc(100vh - 74px); }
 
 .imagen-fondo {
-  background-image: url("/images/fondo.jpg");
+  background-image: url("https://raw.githubusercontent.com/LarryAnthony/portafolio/master/images/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
