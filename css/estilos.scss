@@ -1,0 +1,227 @@
+$principal: #111418;
+$secundario: #20c997;
+$oscuro: #111418;
+$texto: #343a40;
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: $texto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+// ============================
+// 3. Estilos generales para los botones
+// ============================
+
+.btn {
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+}
+
+// ============================
+// 4. Estilos color primary
+// ============================
+
+.bg-primary {
+    background-color: $principal !important;
+}
+
+.text-primary {
+    color: $principal !important;
+}
+
+.btn-primary {
+    background-color: $principal;
+    border-color: $principal;
+}
+
+.btn-primary:hover {
+    background-color: lighten($principal, 5%);
+    border-color: $principal;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba($principal, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: lighten($principal, 5%);
+    border-color: lighten($principal, 20%);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba($principal, 0.5);
+}
+
+// ============================
+// 5. Estilos color secondary
+// ============================
+
+.bg-secondary {
+    background-color: $secundario !important;
+}
+
+.text-secondary {
+    color: $secundario !important;
+}
+
+.btn-secondary {
+    background-color: $secundario;
+    border-color: $secundario;
+}
+
+.btn-secondary:hover {
+    background-color: lighten($secundario, 5%);
+    border-color: $secundario;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba($secundario, 0.5);
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: lighten($secundario, 5%);
+    border-color: lighten($secundario, 20%);
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba($secundario, 0.5);
+}
+
+// ============================
+// 6. Estilos color dark
+// ============================
+
+.bg-dark {
+    background-color: $oscuro !important;
+}
+
+.text-dark {
+    color: $oscuro !important;
+}
+
+.btn-dark {
+    background-color: $oscuro;
+    border-color: $oscuro;
+}
+
+.btn-dark:hover {
+    background-color: lighten($oscuro, 5%);
+    border-color: $oscuro;
+}
+
+.btn-dark:focus,
+.btn-dark.focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba($oscuro, 0.5);
+}
+
+.btn-dark:not(:disabled):not(.disabled):active,
+.btn-dark:not(:disabled):not(.disabled).active,
+.show > .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: lighten($oscuro, 5%);
+    border-color: lighten($oscuro, 20%);
+}
+
+.btn-dark:not(:disabled):not(.disabled):active:focus,
+.btn-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba($oscuro, 0.5);
+}
+
+#redes-sociales {
+    height: 60px;
+}
+.inicio {
+    width: 100%;
+    height: calc(100vh - 74px);
+}
+.imagen-fondo {
+    background-image: url("/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0px;
+    opacity: 0.84;
+    width: auto;
+    height: calc(100vh - 74px);
+}
+.text-7 {
+    font-size: 28px;
+}
+.text-16 {
+    font-size: 45px;
+}
+.text-24 {
+    font-size: 8vw;
+}
+.text-5 {
+    font-size: 21px;
+}
+
+#aboutme {
+    margin: 30px 50px;
+}
+.datos {
+    width: 80%;
+}
+.espaciado {
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #dee3e4;
+}
+.encima {
+    margin-top: -70px;
+    font-weight: bold;
+}
+@media (min-width: 992px) {
+    header {
+        display: inline-block;
+    }
+    #content {
+        padding-left: 260px;
+        margin-top: -22px;
+    }
+    #navegacion {
+        position: fixed;
+        top: 0px;
+        width: 260px;
+        height: 100vh;
+        font-size: 1.2rem;
+
+        .nombre {
+            font-size: 1.5rem;
+        }
+    }
+    .imagen-fondo {
+        height: calc(100vh);
+    }
+    #aboutme {
+        margin-top: 104px;
+    }
+}
