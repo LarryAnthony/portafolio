@@ -178,7 +178,7 @@ body {
 
   #aboutme {
     margin-top: 104px; } }
-@media (min-width: 700px) {
+@media (max-width: 800px) {
   .encima {
     font-size: 6vw; } }
 
