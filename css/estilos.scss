@@ -29,6 +29,9 @@ body {
 .bg-primary {
     background-color: $principal !important;
 }
+.border-primary {
+    background-color: $principal !important;
+}
 
 .text-primary {
     color: $principal !important;
@@ -72,6 +75,9 @@ body {
 
 .bg-secondary {
     background-color: $secundario !important;
+}
+.border-secondary {
+    border-color: $secundario !important;
 }
 
 .text-secondary {
@@ -201,6 +207,9 @@ body {
     font-weight: bold;
     height: 70px;
     font-size: 4vw;
+}
+#resume {
+    background-color: #f8f9fa;
 }
 @media (min-width: 992px) {
     header {

@@ -13,6 +13,9 @@ body {
 .bg-primary {
   background-color: #111418 !important; }
 
+.border-primary {
+  background-color: #111418 !important; }
+
 .text-primary {
   color: #111418 !important; }
 
@@ -45,6 +48,9 @@ body {
 
 .bg-secondary {
   background-color: #20c997 !important; }
+
+.border-secondary {
+  border-color: #20c997 !important; }
 
 .text-secondary {
   color: #20c997 !important; }
@@ -155,6 +161,9 @@ body {
   font-weight: bold;
   height: 70px;
   font-size: 4vw; }
+
+#resume {
+  background-color: #f8f9fa; }
 
 @media (min-width: 992px) {
   header {
