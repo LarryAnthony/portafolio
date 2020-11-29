@@ -168,6 +168,15 @@ body {
 .progress-heigth {
   height: 0.4rem; }
 
+#trabajo .portfolio-overlay {
+  color: transparent; }
+#trabajo .portfolio-overlay:hover {
+  color: white;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out; }
+
 @media (min-width: 992px) {
   header {
     display: inline-block; }
