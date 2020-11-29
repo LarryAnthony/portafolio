@@ -165,6 +165,9 @@ body {
 #resume {
   background-color: #f8f9fa; }
 
+.progress-heigth {
+  height: 0.5rem; }
+
 @media (min-width: 992px) {
   header {
     display: inline-block; }
