@@ -235,17 +235,28 @@ body {
         border-radius: 30px;
     }
 }
+.border-derecha {
+    border-right: solid 1px rgb(224, 224, 224);
+}
+.border-abajo {
+    border-bottom: solid 1px rgb(224, 224, 224);
+}
 @media (min-width: 700px) {
     .margen-formulario {
         padding-left: 100px !important;
         padding-right: 100px !important;
     }
-}
-@media (max-width: 800px) {
-    .encima {
-        font-size: 6vw;
+    .etiqueta {
+        width: 25% !important;
+    }
+    .border-abajo {
+        border-bottom: none;
+    }
+    .border-lg {
+        border-right: solid 1px rgb(224, 224, 224);
     }
 }
+
 @media (min-width: 992px) {
     header {
         display: inline-block;

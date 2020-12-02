@@ -184,13 +184,25 @@ body {
   #contactate .boton-enviar {
     border-radius: 30px; }
 
+.border-derecha {
+  border-right: solid 1px #e0e0e0; }
+
+.border-abajo {
+  border-bottom: solid 1px #e0e0e0; }
+
 @media (min-width: 700px) {
   .margen-formulario {
     padding-left: 100px !important;
-    padding-right: 100px !important; } }
-@media (max-width: 800px) {
-  .encima {
-    font-size: 6vw; } }
+    padding-right: 100px !important; }
+
+  .etiqueta {
+    width: 25% !important; }
+
+  .border-abajo {
+    border-bottom: none; }
+
+  .border-lg {
+    border-right: solid 1px #e0e0e0; } }
 @media (min-width: 992px) {
   header {
     display: inline-block; }
