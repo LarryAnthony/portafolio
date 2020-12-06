@@ -1,3 +1,24 @@
+
+function isElementVisible(elem) {
+    let viewScrollTop = $(window).scrollTop(); // distancia de scroll superior
+    let viewBottom = viewScrollTop + $(window).height(); // distancia de scroll + el alto actual de window (lo no visible por scroll + lo visible)
+    console.log('viewBottom', viewBottom)
+    let topElemD = $(elem).offset().top; // distancia desde el elemento hasta el tope superior del viewport
+    console.log('topElemD', topElemD)
+    return (topElemD < viewBottom);
+}
+// invoco una función anónima en el evento scroll sobre window
+$(window).on("scroll", function () {
+    let elem = $('.animacion_number'); // obtengo el elemento por id
+    if (isElementVisible(elem)) {
+        elem.addClass('number-counter');
+        // console.log('Se ingresó elemento')
+        $('.number-counter').countTo();
+    } else {
+        elem.removeClass('number-counter'); // si es visible agrego la class, de lo contrario la remuevo
+        // console.log('No se ingresó elemento')
+    }
+});
 //-- Plugin implementation
 (function ($) {
     $.fn.countTo = function (options) {
@@ -29,5 +50,9 @@
     };
 }(jQuery));
 
+
+
+
+
 //-- Executing
-$('.number-counter').countTo();
+// $('.number-counter').countTo();
