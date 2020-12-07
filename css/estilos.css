@@ -194,6 +194,12 @@ body {
 .border-abajo {
   border-bottom: solid 1px #e0e0e0; }
 
+.espacio-parrafo {
+  line-height: 2; }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1000px; } }
 @media (min-width: 700px) {
   .margen-formulario {
     padding-left: 100px !important;
@@ -207,6 +213,12 @@ body {
 
   .border-lg {
     border-right: solid 1px #e0e0e0; } }
+@media (min-width: 768px) {
+  .foto-proyectos {
+    width: 60% !important; }
+
+  .detalle-proyectos {
+    width: 40% !important; } }
 @media (min-width: 992px) {
   header {
     display: inline-block; }
