@@ -1,126 +1,162 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/fonts/ubuntu-v15-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../assets/fonts/ubuntu-v15-latin_cyrillic-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 body {
   color: #343a40;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .btn {
   padding: 0.5rem 2rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .bg-primary {
-  background-color: #111418 !important; }
+  background-color: #111418 !important;
+}
 
 .border-primary {
-  background-color: #111418 !important; }
+  background-color: #111418 !important;
+}
 
 .text-primary {
-  color: #111418 !important; }
+  color: #111418 !important;
+}
 
 .btn-primary {
   background-color: #111418;
-  border-color: #111418; }
+  border-color: #111418;
+}
 
 .btn-primary:hover {
   background-color: #1c2027;
-  border-color: #111418; }
+  border-color: #111418;
+}
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5);
+}
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #1c2027;
-  border-color: #3b4654; }
+  border-color: #3b4654;
+}
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5);
+}
 
 .bg-secondary {
-  background-color: #20c997 !important; }
+  background-color: #20c997 !important;
+}
 
 .border-secondary {
-  border-color: #20c997 !important; }
+  border-color: #20c997 !important;
+}
 
 .text-secondary {
-  color: #20c997 !important; }
+  color: #20c997 !important;
+}
 
 .btn-secondary {
   background-color: #20c997;
-  border-color: #20c997; }
+  border-color: #20c997;
+}
 
 .btn-secondary:hover {
   background-color: #26dca6;
-  border-color: #20c997; }
+  border-color: #20c997;
+}
 
 .btn-secondary:focus,
 .btn-secondary.focus {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.5);
+}
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
   background-color: #26dca6;
-  border-color: #68e7c1; }
+  border-color: #68e7c1;
+}
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.5);
+}
 
 .bg-dark {
-  background-color: #111418 !important; }
+  background-color: #111418 !important;
+}
 
 .text-dark {
-  color: #111418 !important; }
+  color: #111418 !important;
+}
 
 .btn-dark {
   background-color: #111418;
-  border-color: #111418; }
+  border-color: #111418;
+}
 
 .btn-dark:hover {
   background-color: #1c2027;
-  border-color: #111418; }
+  border-color: #111418;
+}
 
 .btn-dark:focus,
 .btn-dark.focus {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5);
+}
 
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
   background-color: #1c2027;
-  border-color: #3b4654; }
+  border-color: #3b4654;
+}
 
 .btn-dark:not(:disabled):not(.disabled):active:focus,
 .btn-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(17, 20, 24, 0.5);
+}
 
 #redes-sociales {
-  height: 60px; }
+  height: 60px;
+}
 
 .inicio {
   width: 100%;
-  height: calc(100vh - 74px); }
+  height: calc(100vh - 74px);
+}
 
 .imagen-fondo {
   background-image: url("https://raw.githubusercontent.com/LarryAnthony/portafolio/master/images/fondo.jpg");
@@ -130,120 +166,158 @@ body {
   background-position: center 0px;
   opacity: 0.84;
   width: auto;
-  height: calc(100vh - 74px); }
+  height: calc(100vh - 74px);
+}
 
 .text-7 {
-  font-size: 28px; }
+  font-size: 28px;
+}
 
 .text-10 {
   font-size: 40px;
-  color: grey; }
+  color: grey;
+}
 
 .text-16 {
-  font-size: 45px; }
+  font-size: 45px;
+}
 
 .text-24 {
-  font-size: 8vw; }
+  font-size: 8vw;
+}
 
 .text-5 {
-  font-size: 21px; }
+  font-size: 21px;
+}
 
 #aboutme {
-  margin: 30px 50px; }
+  margin: 30px 50px;
+}
 
 .datos {
-  width: 80%; }
+  width: 80%;
+}
 
 .espaciado {
   letter-spacing: 4px;
   font-weight: bold;
   color: #dee3e4;
-  height: 70px; }
+  height: 70px;
+}
 
 .encima {
   margin-top: -77px;
   font-weight: bold;
   height: 70px;
-  font-size: 4vw; }
+  font-size: 4vw;
+}
 
 #resume {
-  background-color: #f8f9fa; }
+  background-color: #f8f9fa;
+}
 
 .progress-heigth {
-  height: 0.4rem; }
+  height: 0.4rem;
+}
 
 #trabajo .portfolio-overlay {
-  color: transparent; }
+  color: transparent;
+}
 #trabajo .portfolio-overlay:hover {
   color: white;
   font-weight: bold;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0.7;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 #trabajo .card {
-  border: none; }
+  border: none;
+}
 
 #contactate {
-  background-color: #f8f9fa; }
-  #contactate .boton-enviar {
-    border-radius: 30px; }
+  background-color: #f8f9fa;
+}
+#contactate .boton-enviar {
+  border-radius: 30px;
+}
 
 .border-derecha {
-  border-right: solid 1px #e0e0e0; }
+  border-right: solid 1px #e0e0e0;
+}
 
 .border-abajo {
-  border-bottom: solid 1px #e0e0e0; }
+  border-bottom: solid 1px #e0e0e0;
+}
 
 .espacio-parrafo {
-  line-height: 2; }
+  line-height: 2;
+}
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 1200px; } }
+    max-width: 1200px;
+  }
+}
 @media (min-width: 700px) {
   .margen-formulario {
     padding-left: 100px !important;
-    padding-right: 100px !important; }
+    padding-right: 100px !important;
+  }
 
   .etiqueta {
-    width: 25% !important; }
+    width: 25% !important;
+  }
 
   .border-abajo {
-    border-bottom: none; }
+    border-bottom: none;
+  }
 
   .border-lg {
-    border-right: solid 1px #e0e0e0; } }
+    border-right: solid 1px #e0e0e0;
+  }
+}
 @media (min-width: 768px) {
   .foto-proyectos {
-    width: 60% !important; }
+    width: 60% !important;
+  }
 
   .detalle-proyectos {
-    width: 40% !important; } }
+    width: 40% !important;
+  }
+}
 @media (min-width: 992px) {
   header {
-    display: inline-block; }
+    display: inline-block;
+  }
 
   #content {
     padding-left: 260px;
-    margin-top: -22px; }
+    margin-top: -22px;
+  }
 
   #navegacion {
     position: fixed;
     top: 0px;
     width: 260px;
     height: 100vh;
-    font-size: 1.2rem; }
-    #navegacion .nombre {
-      font-size: 1.5rem; }
+    font-size: 1.2rem;
+  }
+  #navegacion .nombre {
+    font-size: 1.5rem;
+  }
 
   .imagen-fondo {
-    height: calc(100vh); }
+    height: calc(100vh);
+  }
 
   #aboutme {
-    margin-top: 104px; }
+    margin-top: 104px;
+  }
 
   .margen-formulario {
     padding-left: 200px !important;
-    padding-right: 200px !important; } }
+    padding-right: 200px !important;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
