@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/LarryAnthony/portafolio/issues"
   },
-  "homepage": "https://github.com/LarryAnthony/portafolio#readme",
+  "homepage": "https://larry-jacobo.com",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/plugin-transform-runtime": "^7.13.10",
