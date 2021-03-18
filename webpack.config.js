@@ -75,6 +75,9 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, "src", "libs"),
                     to: "libs"
+                },
+                {
+                    from: path.resolve(__dirname, "src", "CNAME")
                 }
             ]
         }),

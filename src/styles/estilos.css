@@ -159,7 +159,7 @@ body {
 }
 
 .imagen-fondo {
-  background-image: url("https://raw.githubusercontent.com/LarryAnthony/portafolio/master/images/fondo.jpg");
+  background-image: url("https://raw.githubusercontent.com/LarryAnthony/portafolio/master/src/assets/images/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
